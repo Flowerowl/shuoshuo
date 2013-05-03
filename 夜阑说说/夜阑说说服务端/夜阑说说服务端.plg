@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 夜阑说说服务端 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\FLOWER~1\AppData\Local\Temp\RSP84CD.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/夜阑说说服务端.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\夜阑说说服务端\夜阑说说服务端Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\FLOWER~1\AppData\Local\Temp\RSP84CD.tmp" 
+Creating temporary file "C:\Users\FLOWER~1\AppData\Local\Temp\RSP84CE.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/夜阑说说服务端.pdb" /debug /machine:I386 /out:"Debug/夜阑说说服务端.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\夜阑说说服务端.obj"
+".\Debug\夜阑说说服务端Dlg.obj"
+".\Debug\夜阑说说服务端.res"
+]
+Creating command line "link.exe @C:\Users\FLOWER~1\AppData\Local\Temp\RSP84CE.tmp"
+<h3>Output Window</h3>
+Compiling...
+夜阑说说服务端Dlg.cpp
+g:\夜阑说说服务端\夜阑说说服务端dlg.cpp(4) : warning C4652: compiler option 'Generate Browser Info' inconsistent with precompiled header; current command-line option will override that defined in the precompiled header
+G:\夜阑说说服务端\夜阑说说服务端Dlg.cpp(195) : error C2065: 'name' : undeclared identifier
+G:\夜阑说说服务端\夜阑说说服务端Dlg.cpp(195) : error C2666: '+' : 4 overloads have similar conversions
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+夜阑说说服务端.exe - 2 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
